@@ -1,0 +1,33 @@
+{
+  "env": {
+    "commonjs": true,
+    "node": true
+  },
+  "extends":  [
+    "standard",
+    "prettier-standard"
+  ],
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+  "parserOptions": {
+    "ecmaVersion": 2021,
+    "sourcetype": "module",
+    "allowImportExportEverywhere": true
+  },
+  "rules": {
+    "class-methods-use-this": "off",
+    "no-param-reassign": "off",
+    "camelcase": "off",
+    "no-template-curly-in-string": "off",
+    "prettier/prettier": [
+        "error",
+        {
+          "endOfLine": "auto"
+        },
+      ],
+      
+    
+  }
+}
